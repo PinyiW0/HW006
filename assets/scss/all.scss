@@ -1,5 +1,11 @@
+
+
 //載入字體
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Yeseva+One&display=swap');
+
+//Base 設定
+@import './base/base';
+
 //導入bootstrap5
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
