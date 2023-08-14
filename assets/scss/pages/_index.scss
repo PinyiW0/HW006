@@ -6,10 +6,10 @@
 }
 .cate{
   height: 40px;
-  // @include pc{
-  //   height: 80px;
-  // }
   @include pc {
     height: 80px;
   }
+}
+.sparkler{
+  height: 20px;
 }
