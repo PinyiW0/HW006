@@ -5,6 +5,7 @@
 
 //Base 設定
 @import './base/base';
+@import './utils/mixin';
 
 //導入bootstrap5
 @import "../../node_modules/bootstrap/scss/functions";
@@ -13,6 +14,7 @@
 // 自定義 layout
 @import './layout/header.scss';
 @import './layout/footer.scss';
+
 
 // 自定義 Pages
 @import './pages/index.scss';

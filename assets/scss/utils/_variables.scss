@@ -386,7 +386,7 @@ $spacers: (
   10: $spacer * 3,//48px
   11: $spacer * 3.375,//54px
   12: $spacer * 3.75,//60px
-
+  13: $spacer * 2.5,//40px
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -406,7 +406,7 @@ $position-values: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   #EBEAE3;//$white !default;
+$body-bg:                   #F3F1E5;//$white !default;
 $body-color:                #030303;//$gray-900 !default;
 $body-text-align:           null !default;
 
