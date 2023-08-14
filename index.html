@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>第六週作業_index</title>
     
-    <script type="module" crossorigin src="/HW006/assets/bootstrap.min-04dc2999.js"></script>
-    <link rel="stylesheet" href="/HW006/assets/bootstrap-63a3f386.css">
+    <script type="module" crossorigin src="/HW006/assets/bootstrap.min-87cf9114.js"></script>
+    <link rel="stylesheet" href="/HW006/assets/bootstrap-13d74a85.css">
     <link rel="stylesheet" href="/HW006/assets/index-814e4b21.css">
   </head>
   <body>
@@ -68,7 +68,7 @@
         <div class="row">
           <ul class="list-unstyled d-flex flex-wrap flex-md-nowrap mb-8 mb-md-10">
             <li class="border border-2 col-4 col-md-2 me-2 me-md-6 text-center">
-              <a href="#">
+              <a class="" href="#">
                 <img class="cate mt-5 mt-md-9 mb-2 mb-md-3" src="/HW006/assets/cate01-a12495cb.svg" alt="演出">
                 <p class="fs-5 fw-bold" class="fs-5 fw-bold">演出</p>
               </a>
@@ -97,16 +97,144 @@
                 <p class="fs-5 fw-bold">戶外</p>
               </a>
             </li>
-            <li class="border border-2 col-4 col-md-2 me-2 me-md-6 mb-0">
-                <a class="fs-3 text-warning bg-primary fw-bold text-center" href="../pages/Event-Category.html">探索<br>更多</a>
+            <li class="border border-2 col-4 col-md-2 mb-0 bg-primary d-flex align-items-center justify-content-center">
+                <a class="fs-3 text-warning fw-bold " href="../pages/Event-Category.html">探索<br>更多</a>
             </li>
           </ul>
         </div>
       </div>
+      <!-- 近期活動 -->
+      <div class="container mb-md-12 mb-8">
+        <!-- 標題 -->
+        <div class="d-flex align-items-center justify-content-between border border-3 mb-6 mb-md-8">
+          <h2 class="fs-1 fw-bold py-4 py-md-6 ps-3 ps-md-8 m-0">RECENT</h2>
+          <h3 class="fs-4 fw-bold pe-3 pe-md-8 m-0">近期活動</h3>
+        </div>
+        <!-- 內容 -->
+        <ul class="list-unstyled row">
+          <li class="card col-12 col-md-4 me-6 mb-6 mb-md-10">
+            <div class="card-body">
+              <h5 class="card-title mb-0 fs-3">19 MAY 2023</h5>
+              <hr class="border border-3 my-3">
+              <img class="mb-2 mb-md-3" src="/HW006/assets/01-14f95265.jpg" alt="邪典電影派對——房間宣傳照">
+              <h6 class="fs-8 fs-md-5 text-primary mb-2 mb-md-3 text-muted mb-0">邪典電影派對——房間</h6>
+              <p class="card-text mb-4">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="card-link fw-bold d-flex align-items-center">
+                  <img class="sparkler me-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANgSURBVHgB7ZvdddpAEIUHBM+og2w6UAm4EzqIO4g7cDrAHTgdkA6wK0AdGL/xACh38K7OsJHE2hHMSvCds0cSEovmzuzfSBDdUCW1RY0h6ZKhGFJEVYAkSQxKRoqMSJGiKAwpNwFVAQaDAXv/jRRRFQBMEAXfSBFtAQyigK4WdIAFF1JEcxSQnZ8hJTQFMBQBUUTAaDQypISaADwJcvt2PqCCmgAwOq3avzSxdII3AUiJKATAZGhCSqgJAKNVF0GO1gRArz6jz43t0uuGwpna32qF1gSAR3Pc2Go4HP6k85Ch/gWX3W73h2LE3iDP71d0wquY/CzdWsBeXwtE/eGuxfceKFbG43EmjHprClU2OkCAVIhaQIgVxQ5u8l4YVtQ1iQABjLwG9XDixFAXkF6zYftYcU2TAMY7X7TZ8V2ClMPVM2AuL7BNpGwu4tQ/xkfd7hswFSIs3Envc5cUqTL+F3UYUxcJVQLA2Bfv8yfqAZUi+AKgPNdFSx9gEZYVRteVJ+ojFV6uKnO6IKE5aSO27M3DQ03eIpkxkdf42R276PnqwmeN+tbyGPW547U9ft/v94d9u83tObdtxAmQWgMydEQZG4XCT21S/IChDgM7cl6n0IeYrxCJ97m88GflYgiG87STrIqpULrz2JTbmiOWbcSUvbQttAmk+JLhijjEbYWyCZRh7s7J73517W/D/8gR1ptMbo/LJsBO4/Nw5uHcZrPJKSa4dw/oBJ+pjyBa5qHDIA+Z1JWFTwj+4qhmOPSj42ROoRP4nscx976VU+HeiQBjHz3jS4OqBLCfL3ohAidC6oxnkvrlcF0kRJFFDgI3PGsy3l6z8gw8gpfBXV0cGendKuOZJCAnyIkQT8h7ih3PMPZaGnDdqqG+mRSUE68UK7Ld40YbvZUcJzyXJ6qWOYVom4IRN3jSS15vH2SUaxLYTqkl2nw0NsU8/A5Pbe7oY6XVOtvt9gH1f9d8oaI1ENJyqPtNSmi/LO1Qe1tUU4BymYuQficlohCAAlJX5+ImACkhU26a6Tc1ATCc5W5fpLkujmYTyN0Oxver7AMkOV0jfjJEA+0/TOSkjPZ/hvxHXxdHtQ/AA41XbNRmgYx2E+AIyEkR7SZwlmXzZ0hIEXifR4KNfWJ7lfzPuwM32uAvhWS8ZdBSZJIAAAAASUVORK5CYII=" alt="星星圖案">
+                  社群活動
+                </a>
+                <a href="#" class="card-link fw-bold d-flex align-items-center">開賣中
+                  <img class="ms-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABnSURBVHgBfY2xDYAwDARf0FBmDUrGYJtskIzABoxATZURWIUNwhcvMCHE0knv90kGgEA24vDMqv41nmRyGDmp+8ixkJ1yVV50SNqt7DsjZiOgyHcXGq/jn4Sa1JOJDGQmp/qR7Fa8APobHa29vmSgAAAAAElFTkSuQmCC" alt="向右箭頭">
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="card col-12 col-md-4 me-6 mb-6 mb-md-10">
+            <div class="card-body">
+              <h5 class="card-title mb-0 fs-3">19 MAY 2023</h5>
+              <hr class="border border-3 my-3">
+              <img class="mb-2 mb-md-3" src="/HW006/assets/01-14f95265.jpg" alt="邪典電影派對——房間宣傳照">
+              <h6 class="fs-8 fs-md-5 text-primary mb-2 mb-md-3 text-muted mb-0">邪典電影派對——房間</h6>
+              <p class="card-text mb-4">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="card-link fw-bold d-flex align-items-center">
+                  <img class="sparkler me-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANgSURBVHgB7ZvdddpAEIUHBM+og2w6UAm4EzqIO4g7cDrAHTgdkA6wK0AdGL/xACh38K7OsJHE2hHMSvCds0cSEovmzuzfSBDdUCW1RY0h6ZKhGFJEVYAkSQxKRoqMSJGiKAwpNwFVAQaDAXv/jRRRFQBMEAXfSBFtAQyigK4WdIAFF1JEcxSQnZ8hJTQFMBQBUUTAaDQypISaADwJcvt2PqCCmgAwOq3avzSxdII3AUiJKATAZGhCSqgJAKNVF0GO1gRArz6jz43t0uuGwpna32qF1gSAR3Pc2Go4HP6k85Ch/gWX3W73h2LE3iDP71d0wquY/CzdWsBeXwtE/eGuxfceKFbG43EmjHprClU2OkCAVIhaQIgVxQ5u8l4YVtQ1iQABjLwG9XDixFAXkF6zYftYcU2TAMY7X7TZ8V2ClMPVM2AuL7BNpGwu4tQ/xkfd7hswFSIs3Envc5cUqTL+F3UYUxcJVQLA2Bfv8yfqAZUi+AKgPNdFSx9gEZYVRteVJ+ojFV6uKnO6IKE5aSO27M3DQ03eIpkxkdf42R276PnqwmeN+tbyGPW547U9ft/v94d9u83tObdtxAmQWgMydEQZG4XCT21S/IChDgM7cl6n0IeYrxCJ97m88GflYgiG87STrIqpULrz2JTbmiOWbcSUvbQttAmk+JLhijjEbYWyCZRh7s7J73517W/D/8gR1ptMbo/LJsBO4/Nw5uHcZrPJKSa4dw/oBJ+pjyBa5qHDIA+Z1JWFTwj+4qhmOPSj42ROoRP4nscx976VU+HeiQBjHz3jS4OqBLCfL3ohAidC6oxnkvrlcF0kRJFFDgI3PGsy3l6z8gw8gpfBXV0cGendKuOZJCAnyIkQT8h7ih3PMPZaGnDdqqG+mRSUE68UK7Ld40YbvZUcJzyXJ6qWOYVom4IRN3jSS15vH2SUaxLYTqkl2nw0NsU8/A5Pbe7oY6XVOtvt9gH1f9d8oaI1ENJyqPtNSmi/LO1Qe1tUU4BymYuQficlohCAAlJX5+ImACkhU26a6Tc1ATCc5W5fpLkujmYTyN0Oxver7AMkOV0jfjJEA+0/TOSkjPZ/hvxHXxdHtQ/AA41XbNRmgYx2E+AIyEkR7SZwlmXzZ0hIEXifR4KNfWJ7lfzPuwM32uAvhWS8ZdBSZJIAAAAASUVORK5CYII=" alt="星星圖案">
+                  社群活動
+                </a>
+                <a href="#" class="card-link fw-bold d-flex align-items-center">開賣中
+                  <img class="ms-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABnSURBVHgBfY2xDYAwDARf0FBmDUrGYJtskIzABoxATZURWIUNwhcvMCHE0knv90kGgEA24vDMqv41nmRyGDmp+8ixkJ1yVV50SNqt7DsjZiOgyHcXGq/jn4Sa1JOJDGQmp/qR7Fa8APobHa29vmSgAAAAAElFTkSuQmCC" alt="向右箭頭">
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="card col-12 col-md-4 me-6 mb-6 mb-md-10">
+            <div class="card-body">
+              <h5 class="card-title mb-0 fs-3">19 MAY 2023</h5>
+              <hr class="border border-3 my-3">
+              <img class="mb-2 mb-md-3" src="/HW006/assets/01-14f95265.jpg" alt="邪典電影派對——房間宣傳照">
+              <h6 class="fs-8 fs-md-5 text-primary mb-2 mb-md-3 text-muted mb-0">邪典電影派對——房間</h6>
+              <p class="card-text mb-4">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="card-link fw-bold d-flex align-items-center">
+                  <img class="sparkler me-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANgSURBVHgB7ZvdddpAEIUHBM+og2w6UAm4EzqIO4g7cDrAHTgdkA6wK0AdGL/xACh38K7OsJHE2hHMSvCds0cSEovmzuzfSBDdUCW1RY0h6ZKhGFJEVYAkSQxKRoqMSJGiKAwpNwFVAQaDAXv/jRRRFQBMEAXfSBFtAQyigK4WdIAFF1JEcxSQnZ8hJTQFMBQBUUTAaDQypISaADwJcvt2PqCCmgAwOq3avzSxdII3AUiJKATAZGhCSqgJAKNVF0GO1gRArz6jz43t0uuGwpna32qF1gSAR3Pc2Go4HP6k85Ch/gWX3W73h2LE3iDP71d0wquY/CzdWsBeXwtE/eGuxfceKFbG43EmjHprClU2OkCAVIhaQIgVxQ5u8l4YVtQ1iQABjLwG9XDixFAXkF6zYftYcU2TAMY7X7TZ8V2ClMPVM2AuL7BNpGwu4tQ/xkfd7hswFSIs3Envc5cUqTL+F3UYUxcJVQLA2Bfv8yfqAZUi+AKgPNdFSx9gEZYVRteVJ+ojFV6uKnO6IKE5aSO27M3DQ03eIpkxkdf42R276PnqwmeN+tbyGPW547U9ft/v94d9u83tObdtxAmQWgMydEQZG4XCT21S/IChDgM7cl6n0IeYrxCJ97m88GflYgiG87STrIqpULrz2JTbmiOWbcSUvbQttAmk+JLhijjEbYWyCZRh7s7J73517W/D/8gR1ptMbo/LJsBO4/Nw5uHcZrPJKSa4dw/oBJ+pjyBa5qHDIA+Z1JWFTwj+4qhmOPSj42ROoRP4nscx976VU+HeiQBjHz3jS4OqBLCfL3ohAidC6oxnkvrlcF0kRJFFDgI3PGsy3l6z8gw8gpfBXV0cGendKuOZJCAnyIkQT8h7ih3PMPZaGnDdqqG+mRSUE68UK7Ld40YbvZUcJzyXJ6qWOYVom4IRN3jSS15vH2SUaxLYTqkl2nw0NsU8/A5Pbe7oY6XVOtvt9gH1f9d8oaI1ENJyqPtNSmi/LO1Qe1tUU4BymYuQficlohCAAlJX5+ImACkhU26a6Tc1ATCc5W5fpLkujmYTyN0Oxver7AMkOV0jfjJEA+0/TOSkjPZ/hvxHXxdHtQ/AA41XbNRmgYx2E+AIyEkR7SZwlmXzZ0hIEXifR4KNfWJ7lfzPuwM32uAvhWS8ZdBSZJIAAAAASUVORK5CYII=" alt="星星圖案">
+                  社群活動
+                </a>
+                <a href="#" class="card-link fw-bold d-flex align-items-center">開賣中
+                  <img class="ms-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABnSURBVHgBfY2xDYAwDARf0FBmDUrGYJtskIzABoxATZURWIUNwhcvMCHE0knv90kGgEA24vDMqv41nmRyGDmp+8ixkJ1yVV50SNqt7DsjZiOgyHcXGq/jn4Sa1JOJDGQmp/qR7Fa8APobHa29vmSgAAAAAElFTkSuQmCC" alt="向右箭頭">
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="card col-12 col-md-4 me-6 mb-6 mb-md-10">
+            <div class="card-body">
+              <h5 class="card-title mb-0 fs-3">19 MAY 2023</h5>
+              <hr class="border border-3 my-3">
+              <img class="mb-2 mb-md-3" src="/HW006/assets/01-14f95265.jpg" alt="邪典電影派對——房間宣傳照">
+              <h6 class="fs-8 fs-md-5 text-primary mb-2 mb-md-3 text-muted mb-0">邪典電影派對——房間</h6>
+              <p class="card-text mb-4">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="card-link fw-bold d-flex align-items-center">
+                  <img class="sparkler me-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANgSURBVHgB7ZvdddpAEIUHBM+og2w6UAm4EzqIO4g7cDrAHTgdkA6wK0AdGL/xACh38K7OsJHE2hHMSvCds0cSEovmzuzfSBDdUCW1RY0h6ZKhGFJEVYAkSQxKRoqMSJGiKAwpNwFVAQaDAXv/jRRRFQBMEAXfSBFtAQyigK4WdIAFF1JEcxSQnZ8hJTQFMBQBUUTAaDQypISaADwJcvt2PqCCmgAwOq3avzSxdII3AUiJKATAZGhCSqgJAKNVF0GO1gRArz6jz43t0uuGwpna32qF1gSAR3Pc2Go4HP6k85Ch/gWX3W73h2LE3iDP71d0wquY/CzdWsBeXwtE/eGuxfceKFbG43EmjHprClU2OkCAVIhaQIgVxQ5u8l4YVtQ1iQABjLwG9XDixFAXkF6zYftYcU2TAMY7X7TZ8V2ClMPVM2AuL7BNpGwu4tQ/xkfd7hswFSIs3Envc5cUqTL+F3UYUxcJVQLA2Bfv8yfqAZUi+AKgPNdFSx9gEZYVRteVJ+ojFV6uKnO6IKE5aSO27M3DQ03eIpkxkdf42R276PnqwmeN+tbyGPW547U9ft/v94d9u83tObdtxAmQWgMydEQZG4XCT21S/IChDgM7cl6n0IeYrxCJ97m88GflYgiG87STrIqpULrz2JTbmiOWbcSUvbQttAmk+JLhijjEbYWyCZRh7s7J73517W/D/8gR1ptMbo/LJsBO4/Nw5uHcZrPJKSa4dw/oBJ+pjyBa5qHDIA+Z1JWFTwj+4qhmOPSj42ROoRP4nscx976VU+HeiQBjHz3jS4OqBLCfL3ohAidC6oxnkvrlcF0kRJFFDgI3PGsy3l6z8gw8gpfBXV0cGendKuOZJCAnyIkQT8h7ih3PMPZaGnDdqqG+mRSUE68UK7Ld40YbvZUcJzyXJ6qWOYVom4IRN3jSS15vH2SUaxLYTqkl2nw0NsU8/A5Pbe7oY6XVOtvt9gH1f9d8oaI1ENJyqPtNSmi/LO1Qe1tUU4BymYuQficlohCAAlJX5+ImACkhU26a6Tc1ATCc5W5fpLkujmYTyN0Oxver7AMkOV0jfjJEA+0/TOSkjPZ/hvxHXxdHtQ/AA41XbNRmgYx2E+AIyEkR7SZwlmXzZ0hIEXifR4KNfWJ7lfzPuwM32uAvhWS8ZdBSZJIAAAAASUVORK5CYII=" alt="星星圖案">
+                  社群活動
+                </a>
+                <a href="#" class="card-link fw-bold d-flex align-items-center">開賣中
+                  <img class="ms-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABnSURBVHgBfY2xDYAwDARf0FBmDUrGYJtskIzABoxATZURWIUNwhcvMCHE0knv90kGgEA24vDMqv41nmRyGDmp+8ixkJ1yVV50SNqt7DsjZiOgyHcXGq/jn4Sa1JOJDGQmp/qR7Fa8APobHa29vmSgAAAAAElFTkSuQmCC" alt="向右箭頭">
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="card col-12 col-md-4 me-6 mb-6 mb-md-10">
+            <div class="card-body">
+              <h5 class="card-title mb-0 fs-3">19 MAY 2023</h5>
+              <hr class="border border-3 my-3">
+              <img class="mb-2 mb-md-3" src="/HW006/assets/01-14f95265.jpg" alt="邪典電影派對——房間宣傳照">
+              <h6 class="fs-8 fs-md-5 text-primary mb-2 mb-md-3 text-muted mb-0">邪典電影派對——房間</h6>
+              <p class="card-text mb-4">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="card-link fw-bold d-flex align-items-center">
+                  <img class="sparkler me-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANgSURBVHgB7ZvdddpAEIUHBM+og2w6UAm4EzqIO4g7cDrAHTgdkA6wK0AdGL/xACh38K7OsJHE2hHMSvCds0cSEovmzuzfSBDdUCW1RY0h6ZKhGFJEVYAkSQxKRoqMSJGiKAwpNwFVAQaDAXv/jRRRFQBMEAXfSBFtAQyigK4WdIAFF1JEcxSQnZ8hJTQFMBQBUUTAaDQypISaADwJcvt2PqCCmgAwOq3avzSxdII3AUiJKATAZGhCSqgJAKNVF0GO1gRArz6jz43t0uuGwpna32qF1gSAR3Pc2Go4HP6k85Ch/gWX3W73h2LE3iDP71d0wquY/CzdWsBeXwtE/eGuxfceKFbG43EmjHprClU2OkCAVIhaQIgVxQ5u8l4YVtQ1iQABjLwG9XDixFAXkF6zYftYcU2TAMY7X7TZ8V2ClMPVM2AuL7BNpGwu4tQ/xkfd7hswFSIs3Envc5cUqTL+F3UYUxcJVQLA2Bfv8yfqAZUi+AKgPNdFSx9gEZYVRteVJ+ojFV6uKnO6IKE5aSO27M3DQ03eIpkxkdf42R276PnqwmeN+tbyGPW547U9ft/v94d9u83tObdtxAmQWgMydEQZG4XCT21S/IChDgM7cl6n0IeYrxCJ97m88GflYgiG87STrIqpULrz2JTbmiOWbcSUvbQttAmk+JLhijjEbYWyCZRh7s7J73517W/D/8gR1ptMbo/LJsBO4/Nw5uHcZrPJKSa4dw/oBJ+pjyBa5qHDIA+Z1JWFTwj+4qhmOPSj42ROoRP4nscx976VU+HeiQBjHz3jS4OqBLCfL3ohAidC6oxnkvrlcF0kRJFFDgI3PGsy3l6z8gw8gpfBXV0cGendKuOZJCAnyIkQT8h7ih3PMPZaGnDdqqG+mRSUE68UK7Ld40YbvZUcJzyXJ6qWOYVom4IRN3jSS15vH2SUaxLYTqkl2nw0NsU8/A5Pbe7oY6XVOtvt9gH1f9d8oaI1ENJyqPtNSmi/LO1Qe1tUU4BymYuQficlohCAAlJX5+ImACkhU26a6Tc1ATCc5W5fpLkujmYTyN0Oxver7AMkOV0jfjJEA+0/TOSkjPZ/hvxHXxdHtQ/AA41XbNRmgYx2E+AIyEkR7SZwlmXzZ0hIEXifR4KNfWJ7lfzPuwM32uAvhWS8ZdBSZJIAAAAASUVORK5CYII=" alt="星星圖案">
+                  社群活動
+                </a>
+                <a href="#" class="card-link fw-bold d-flex align-items-center">開賣中
+                  <img class="ms-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABnSURBVHgBfY2xDYAwDARf0FBmDUrGYJtskIzABoxATZURWIUNwhcvMCHE0knv90kGgEA24vDMqv41nmRyGDmp+8ixkJ1yVV50SNqt7DsjZiOgyHcXGq/jn4Sa1JOJDGQmp/qR7Fa8APobHa29vmSgAAAAAElFTkSuQmCC" alt="向右箭頭">
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="card col-12 col-md-4 me-6 mb-6 mb-md-10">
+            <div class="card-body">
+              <h5 class="card-title mb-0 fs-3">19 MAY 2023</h5>
+              <hr class="border border-3 my-3">
+              <img class="mb-2 mb-md-3" src="/HW006/assets/01-14f95265.jpg" alt="邪典電影派對——房間宣傳照">
+              <h6 class="fs-8 fs-md-5 text-primary mb-2 mb-md-3 text-muted mb-0">邪典電影派對——房間</h6>
+              <p class="card-text mb-4">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="card-link fw-bold d-flex align-items-center">
+                  <img class="sparkler me-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANgSURBVHgB7ZvdddpAEIUHBM+og2w6UAm4EzqIO4g7cDrAHTgdkA6wK0AdGL/xACh38K7OsJHE2hHMSvCds0cSEovmzuzfSBDdUCW1RY0h6ZKhGFJEVYAkSQxKRoqMSJGiKAwpNwFVAQaDAXv/jRRRFQBMEAXfSBFtAQyigK4WdIAFF1JEcxSQnZ8hJTQFMBQBUUTAaDQypISaADwJcvt2PqCCmgAwOq3avzSxdII3AUiJKATAZGhCSqgJAKNVF0GO1gRArz6jz43t0uuGwpna32qF1gSAR3Pc2Go4HP6k85Ch/gWX3W73h2LE3iDP71d0wquY/CzdWsBeXwtE/eGuxfceKFbG43EmjHprClU2OkCAVIhaQIgVxQ5u8l4YVtQ1iQABjLwG9XDixFAXkF6zYftYcU2TAMY7X7TZ8V2ClMPVM2AuL7BNpGwu4tQ/xkfd7hswFSIs3Envc5cUqTL+F3UYUxcJVQLA2Bfv8yfqAZUi+AKgPNdFSx9gEZYVRteVJ+ojFV6uKnO6IKE5aSO27M3DQ03eIpkxkdf42R276PnqwmeN+tbyGPW547U9ft/v94d9u83tObdtxAmQWgMydEQZG4XCT21S/IChDgM7cl6n0IeYrxCJ97m88GflYgiG87STrIqpULrz2JTbmiOWbcSUvbQttAmk+JLhijjEbYWyCZRh7s7J73517W/D/8gR1ptMbo/LJsBO4/Nw5uHcZrPJKSa4dw/oBJ+pjyBa5qHDIA+Z1JWFTwj+4qhmOPSj42ROoRP4nscx976VU+HeiQBjHz3jS4OqBLCfL3ohAidC6oxnkvrlcF0kRJFFDgI3PGsy3l6z8gw8gpfBXV0cGendKuOZJCAnyIkQT8h7ih3PMPZaGnDdqqG+mRSUE68UK7Ld40YbvZUcJzyXJ6qWOYVom4IRN3jSS15vH2SUaxLYTqkl2nw0NsU8/A5Pbe7oY6XVOtvt9gH1f9d8oaI1ENJyqPtNSmi/LO1Qe1tUU4BymYuQficlohCAAlJX5+ImACkhU26a6Tc1ATCc5W5fpLkujmYTyN0Oxver7AMkOV0jfjJEA+0/TOSkjPZ/hvxHXxdHtQ/AA41XbNRmgYx2E+AIyEkR7SZwlmXzZ0hIEXifR4KNfWJ7lfzPuwM32uAvhWS8ZdBSZJIAAAAASUVORK5CYII=" alt="星星圖案">
+                  社群活動
+                </a>
+                <a href="#" class="card-link fw-bold d-flex align-items-center">開賣中
+                  <img class="ms-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABnSURBVHgBfY2xDYAwDARf0FBmDUrGYJtskIzABoxATZURWIUNwhcvMCHE0knv90kGgEA24vDMqv41nmRyGDmp+8ixkJ1yVV50SNqt7DsjZiOgyHcXGq/jn4Sa1JOJDGQmp/qR7Fa8APobHa29vmSgAAAAAElFTkSuQmCC" alt="向右箭頭">
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+      <!-- 線上活動 -->
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between border border-3">
+          <h2 class="fs-1 fw-bold py-4 py-md-6 ps-3 ps-md-8 m-0">ONLINE</h2>
+          <h3 class="fs-4 fw-bold pe-3 pe-md-8 m-0">線上活動</h3>
+        </div>
+      </div>
+      
       
     </main>
 
-    <footer class="footer">我是 footer</footer>
+    
     
   </body>
 </html>
