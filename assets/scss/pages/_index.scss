@@ -13,3 +13,24 @@
 .sparkler{
   height: 20px;
 }
+.search-btn{
+  background: $primary;
+  &:hover{
+    background: #9C9E18;
+  }
+}
+
+.card-photo{
+  height: 210px;
+  width: 351px;
+  object-fit: cover;
+  
+  @include pc {
+      width: 416px;
+      height: 255px;
+    }
+}
+
+.activity-link:hover{
+  text-decoration: underline;
+}
