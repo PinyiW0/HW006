@@ -31,9 +31,26 @@
     }
 }
 
-.activity-link:hover{
-  text-decoration: underline;
+.activity-link{
+  position: relative;
+  &:hover {
+      color: $primary;
+      text-decoration: underline;
+  }
+  &:hover::before {
+    content: '';
+    top: 8px;
+    left: -8px;
+    position: absolute;
+    width: 25px;
+    border-radius: 99em;
+    height: 25px;
+    background-color: $warning;
+    z-index: -1;
+  }
+  
 }
+
 
 .chat-gpt-photo{
   width: 100%;
@@ -51,25 +68,43 @@
    background-color: $primary;
 }
 
+// .badge__link{在a上面的寫法
+//   position: relative;
+//   // 原本顏色
+//   &::before{
+//     content: '';
+//     top: 0;
+//     left: 0;
+//     //display: block;
+//     position: absolute;
+//     width: 4px;
+//     height: 100%;
+//     background: $primary;
+//   }
+//   // Hover顏色
+//   &:hover::before{
+//     top: -1px;
+//     height: calc(100% + 2px);
+//     background: $warning;
+//   }
+// }
 .badge__link{
-  position: relative;
-  // 原本顏色
-  &::before{
-    content: '';
-    top: 0;
-    left: 0;
-    //display: block;
-    position: absolute;
-    width: 4px;
-    height: 100%;
-    background: $primary;
+  outline: 1px solid $primary;
+  border-left: 4px solid #000;
+  &:hover {
+    outline: none;
+    border-left-color: $warning;
+    color: #fff;
+    background-color: $primary;
   }
-  Hover顏色
-  &::before:hover{
-    top: -1px;
-    height: calc(100% + 2px);
-    background: $warning;
-  }
+}
+.activity__btn{
+  color: white;
+  background-color: $primary;
+}
+
+.activity__btn:hover{
+  color: $warning;
 }
 
 .activity__text{
