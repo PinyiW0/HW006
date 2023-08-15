@@ -74,3 +74,22 @@
 .activity__text{
   letter-spacing: 10%;
 }
+
+.activity__item{
+  img{
+    object-fit: cover;
+    height: 274px;
+  }
+}
+.activity__photo li {
+  &:nth-child(2n) {
+    transform: rotate(2deg);
+  }
+
+  &:nth-child(3) {
+    transform: rotate(-2deg);
+  }
+}
+.h5__transform{
+  transform: translate(-50%, -50%) rotate(-4deg);
+}
