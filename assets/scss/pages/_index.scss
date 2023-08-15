@@ -61,10 +61,16 @@
     display: block;
     width: 4px;
     height: 100%;
-    background: $primary;
-  }
-  // Hover顏色
-  &::hover::before{
     background: $warning;
   }
+  Hover顏色
+  &::hover::before{
+    top: -1px;
+    height: calc(100% + 2px);
+    background: $warning;
+  }
+}
+
+.activity__text{
+  letter-spacing: 10%;
 }
