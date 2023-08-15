@@ -58,13 +58,14 @@
     content: '';
     top: 0;
     left: 0;
-    display: block;
+    //display: block;
+    position: absolute;
     width: 4px;
     height: 100%;
-    background: $warning;
+    background: $primary;
   }
   Hover顏色
-  &::hover::before{
+  &::before:hover{
     top: -1px;
     height: calc(100% + 2px);
     background: $warning;
