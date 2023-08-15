@@ -417,7 +417,7 @@ $body-text-align:           null !default;
 $link-color:                              $primary !default;
 $link-decoration:                         none !default;//underline !default;
 $link-shade-percentage:                   20% !default;
-$link-hover-color:                        #9C9E18;//shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration:                   null !default;
 
 $stretched-link-pseudo-element:           after !default;
@@ -1390,12 +1390,12 @@ $toast-header-border-color:         rgba($black, .05) !default;
 // Badges
 
 // scss-docs-start badge-variables
-$badge-font-size:                   .75em !default;
+$badge-font-size:                   1em;//.75em !default;
 $badge-font-weight:                 $font-weight-bold !default;
-$badge-color:                       $white !default;
-$badge-padding-y:                   .35em !default;
-$badge-padding-x:                   .65em !default;
-$badge-border-radius:               $border-radius !default;
+$badge-color:                       $primary;//$white !default;
+$badge-padding-y:                   .25em;//.35em !default;
+$badge-padding-x:                   1.5em;//.65em !default;
+$badge-border-radius:               none;//$border-radius !default;
 // scss-docs-end badge-variables
 
 
