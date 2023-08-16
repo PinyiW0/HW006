@@ -1,5 +1,10 @@
 .logo{
-  height: 53px;
+  min-width: 40px;
+  height: 40px;
+  @include pc{
+    min-width: 53px;
+    height: 53px;
+  }
 }
 .title{
   font-family: "Yeseva One";
@@ -9,4 +14,22 @@
 }
 .header-item:hover{
   color: #9C9E18;
+}
+.navbar__input{
+    height: 39px;
+}
+.navbar__inputBtn{
+  width: 39px;
+  height: 39px;
+  
+}
+.inputBtn__icon{
+  width: 39px;
+  position: relative;
+  top: -8px;
+  left: -10px;
+  @include pc{
+      width: 55px;
+      height: 55px;
+    }
 }
