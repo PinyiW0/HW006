@@ -129,3 +129,24 @@
 .h5__transform{
   transform: translate(-50%, -50%) rotate(-4deg);
 }
+.icon__square{
+  position: relative;
+}
+.icon__square::after{
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 32px;
+  height: 32px;
+  background-color: $primary;
+  z-index: -1;
+}
+
+.follow__contact:hover{
+  text-decoration: underline;
+  color: $primary;
+}
+.input__color{
+  background-color: #F3F1E5;
+}
