@@ -322,6 +322,28 @@
 
     <%- include('./layout/footer'); -%>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper(".mySwiper", {
+        //避免使用者移動到
+        allowTouchMove: false,
+
+        //能呈現幾個.swiper-slide 參考答案
+        slidesPerView: "auto",
+
+        //跑馬燈的速度(毫秒)
+        speed: 15000,
+
+        //是否重複 //https://codesandbox.io/p/sandbox/2q7ppw?file=/index.html:1,1
+        loop: true,
+
+        autoplay: {
+
+          //到下一個幻燈片時，停下的時間  //https://codesandbox.io/p/sandbox/5jmqvd?file=/index.html:1,1
+          delay: 0,
+
+          //避免點擊造成跑馬燈失效，視情況增加 參考答案
+          disableOnInteraction: false
+        }
+      });</script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
