@@ -3,10 +3,12 @@
 }
 .banner{
   max-height: 518px;
+  min-height: 350px;
+  object-fit: cover;
 }
 .cate{
-  height: 40px;
-  @include pc {
+  width: 40px;
+  @include pc{
     height: 80px;
   }
 }
