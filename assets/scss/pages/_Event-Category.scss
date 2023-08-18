@@ -1,0 +1,48 @@
+// .adj__pagn{ //下在li上面
+//     min-width: 40px;
+//     min-height: 40px;
+// }
+.adj__icon{ //下在ａ上面
+    content: "";
+    margin: -5px;
+    transform: scale(1, 1);
+    transition: all 0.3s ease-out;
+     &:hover {
+        transform: scale(3, 3);
+     }
+}
+// 助教建議的寫法範例，但我輸入了spacing語法都沒有作用
+// html
+// <ul class="admin pagination d-flex justify-content-end">
+//  <li class="page-item">
+//   <a class="page-link" href="#" aria-label="Previous">
+//    <span class="material-icons text-center d-flex">
+//     navigate_before
+//    </span>
+//   </a>
+//  </li>
+//  <li class="page-item active"><a class="page-link text-center" href="#">1</a></li>
+//  <li class="page-item"><a class="page-link text-center" href="#">2</a></li>
+//  <li class="page-item"><a class="page-link text-center" href="#">3</a></li>
+//  <li class="page-item">
+//   <a class="page-link" href="#" aria-label="Previous">
+//    <span class="material-icons text-center d-flex">
+//     navigate_next
+//    </span>
+//   </a>
+//  </li>
+// </ul>
+
+// css
+// .admin.pagination .page-item {
+//     min-width: 28px;
+//     min-height: 28px;
+// }
+
+// .admin.pagination .page-link {
+//     height: 100%;
+//     padding: 2px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }

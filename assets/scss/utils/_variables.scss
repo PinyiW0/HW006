@@ -1200,7 +1200,7 @@ $dropdown-dark-header-color:        $gray-500 !default;
 
 // scss-docs-start pagination-variables
 $pagination-padding-y:              .5rem !default;
-$pagination-padding-x:              1rem !default;
+$pagination-padding-x:              1rem ;
 $pagination-padding-y-sm:           .25rem !default;
 $pagination-padding-x-sm:           .5rem !default;
 $pagination-padding-y-lg:           .75rem !default;
@@ -1220,9 +1220,9 @@ $pagination-focus-bg:               $gray-200 !default;
 $pagination-focus-box-shadow:       $input-btn-focus-box-shadow !default;
 $pagination-focus-outline:          0 !default;
 
-$pagination-hover-color:            var(--#{$prefix}link-hover-color) !default;
-$pagination-hover-bg:               $gray-200 !default;
-$pagination-hover-border-color:     $gray-300 !default;
+$pagination-hover-color:            $warning;//var(--#{$prefix}link-hover-color) !default;
+$pagination-hover-bg:               $primary;//$gray-200 !default;
+$pagination-hover-border-color:     $primary;//$gray-300 !default;
 
 $pagination-active-color:           $component-active-color !default;
 $pagination-active-bg:              $component-active-bg !default;
