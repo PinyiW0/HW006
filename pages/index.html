@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>第六週作業_index</title>
+    <title>7TAO活動訂票網_首頁</title>
     <link rel="stylesheet" href="../assets/icofont/icofont.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   </head>
@@ -12,27 +12,69 @@
     <%- include('./layout/header'); -%>
     <div class="container">
       <div class="swiper mySwiper">
-        <div class="swiper-wrapper card text-white border-0 mb-8 mb-md-10">
+        <div class="swiper-wrapper text-white border-0 mb-8 mb-md-10">
           <div class="swiper-slide">
-            <img class="swiper-slide" src="../assets/images/event/13.jpg" class="card-img banner" alt="隔牆有耳-沒有草東的派對活動照片">
+            <div class="card">
+              <img src="../assets/images/event/13.jpg" class="card-img banner" alt="隔牆有耳-沒有草東的派對活動照片">
+              <div class="card-img-overlay d-flex flex-column justify-content-between">
+                <p class="card-text text-white font-f-Yeseva fs-2 my-4 mx-13 m-md-9 d-md-block d-none shadow">19 MAY 2023</p>
+                <p class="card-text text-white font-f-Yeseva fs-2 my-2 mx-8 m-md-9 d-md-none d-block shadow">19 MAY<br>2023</p>
+                <div>
+                  <h5 class="card-title mb-4 text-center fw-bold text-white shadow">隔牆有耳-沒有草東的派對</h5>
+                  <p class="card-text text-center font-f-notoSans mb-6 d-none d-md-block text-white">
+                    你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！<br>
+                    帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="swiper-slide">
-            <img class="swiper-slide" src="../assets/images/event/13.jpg" class="card-img banner" alt="隔牆有耳-沒有草東的派對活動照片">
+            <div class="card">
+              <img src="../assets/images/event/party.avif" class="card-img banner" alt="狂歡一夏˙樂音派對活動照片">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <div class="card-img-overlay d-flex flex-column justify-content-between">
+                  <p class="card-text text-white font-f-Yeseva fs-2 my-4 mx-13 m-md-9 d-md-block d-none shadow">22 MAY 2023</p>
+                  <p class="card-text text-white font-f-Yeseva fs-2 my-2 mx-8 m-md-9 d-md-none d-block shadow">22 MAY<br>2023</p>
+                  <div>
+                    <h5 class="card-title mb-4 text-center fw-bold text-white shadow">狂歡一夏˙樂音派對</h5>
+                    <p class="card-text text-center font-f-notoSans mb-6 d-none d-md-block text-white">
+                      「狂歡一夏˙樂音派對」讓你沉浸於熱情節奏，共享難忘夜晚。<br>
+                      音樂、舞蹈和美食融合，讓夏日活力盡情迸發。加入我們，感受狂歡的音符！</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="card-img-overlay d-flex flex-column justify-content-between">
-            <p class="card-text fs-2 my-4 mx-13 m-md-10 d-md-block d-none">19 MAY 2023</p>
-            <p class="card-text fs-2 my-4 mx-13 m-md-10 d-md-none d-block">19 MAY<br>2023</p>
-            <div>
+          <div class="swiper-slide">
+            <img src="../assets/images/event/wine.avif" class="card-img banner" alt="尋味美韻：品酒之旅活動照片">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <div class="card-img-overlay d-flex flex-column justify-content-between">
+                <p class="card-text text-white font-f-Yeseva fs-2 my-4 mx-13 m-md-9 d-md-block d-none shade">28 MAY 2023</p>
+                <p class="card-text text-white font-f-Yeseva fs-2 my-2 mx-8 m-md-9 d-md-none d-block">28 MAY<br>2023</p>
+                <div>
+                  <h5 class="card-title mb-4 text-center fw-bold text-white shadow">尋味美韻：品酒之旅</h5>
+                  <p class="card-text text-center font-f-notoSans mb-6 d-none d-md-block text-white">
+                    探索精緻葡萄酒的世界，品味來自各地的珍藏佳釀。<br>
+                    與釀酒師交流，品味風味，豐富你的品酒知識，一場美味的酒與文化之旅。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="card-img-overlay d-flex flex-column justify-content-between">
+            <p class="card-text font-f-Yeseva fs-2 my-4 mx-13 m-md-10 d-md-block d-none">19 MAY 2023</p>
+            <p class="card-text font-f-Yeseva fs-2 my-4 mx-13 m-md-10 d-md-none d-block">19 MAY<br>2023</p>
+             <div>
               <h5 class="card-title mb-4 text-center fw-bold">隔牆有耳-沒有草東的派對</h5>
               <p class="card-text text-center font-f-notoSans mb-6 d-none d-md-block">
                 你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！<br>
                 帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！</p>
-            </div>
-          </div>
+            </div> 
+          </div>-->
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next index_swiperBtn"></div>
+        <div class="swiper-button-prev index_swiperBtn"></div>
       </div>
+    </div>
       <!-- <div class="swiper mySwiper">
       <div class="card text-white border-0 mb-8 mb-md-10">
         <img class="swiper-slide" src="../assets/images/event/13.jpg" class="card-img banner" alt="隔牆有耳-沒有草東的派對活動照片">
@@ -120,8 +162,29 @@
                   <img class="sparkler me-1" src="../assets/images/sparkler.png" alt="星星圖案">
                   社群活動
                 </a>
-                <a href="#" class="activity-link font-f-notoSans card-link fw-bold d-flex align-items-center">開賣中 &raquo;
-                </a>
+                <button type="button" class="index__btn-bg activity-link border-0 font-f-notoSans card-link fw-bold d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  開賣中 &raquo;
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content border border-3">
+                      <div class="modal-header d-flex align-items-center border-bottom border-3">
+                        <h5 class="font-f-Yeseva font-f-Yeseva fw-bold letterSpc-10 mx-auto mb-0" id="exampleModalLabel">立刻成為7TAO會員</h5>
+                        <button type="button" class="btn-close text-primary m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p class="font-f-notoSans mb-0 text-center mb-0 pt-8 pb-3">立刻成為七逃會員，加速活動報名流程並取得活動優惠資訊。<br>
+                        您也可以先報名活動，日後再註冊帳號，<br>
+                        系統會在認證您的Email後，協助您找回舊的訂單。</p>
+                      </div>
+                      <div class="modal-footer mx-auto border-0 pt-0 pb-8 pb-md-10">
+                        <button type="button" class="btn btn-primary text-warning fw-bold fs-7 py-2 px-8" data-bs-dismiss="modal">立即成為會員</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </li>
@@ -250,7 +313,7 @@
       <!-- <div class="bg-primary mb-6 mb-md-9">
           <div class="activity__text fs-6 fs-md-4 fw-bold text-warning letterSpc-10 py-md-6 py-4 overflow-hidden text-nowrap">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS</div>
       </div> -->
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper2">
         <div class="swiper-wrapper py-4 py-md-6 mb-6 mb-md-9">
           <div class="swiper-slide fw-bold fs-6 fs-md-4 letterSpc-10">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
           <div class="swiper-slide fw-bold fs-6 fs-md-4 letterSpc-10">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
@@ -297,7 +360,7 @@
         <div class="activity__text fs-6 fs-md-4 fw-bold text-warning letterSpc-10 py-md-6 py-4 overflow-hidden text-nowrap">
           動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS</div>
       </div> -->
-      <div class="swiper mySwiper mt-md-11 mt-13 mb-md-12 mb-8">
+      <div class="swiper mySwiper2 mt-md-11 mt-13 mb-md-12 mb-8">
         <div class="swiper-wrapper py-4 py-md-6">
           <div class="swiper-slide fw-bold fs-6 fs-md-4 letterSpc-10">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
           <div class="swiper-slide fw-bold fs-6 fs-md-4 letterSpc-10">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
@@ -329,7 +392,7 @@
               還不通通給我訂閱起來？</p>
               <div class="">
                 <form class="form d-flex flex-column">
-                  <input class="input__color font-f-notoSans rounded-0 mx-3 mx-md-8 py-4 px-6 border border-2 mb-4 mb-md-11" placeholder="輸入Email" type="email">
+                  <input class="input__color font-f-notoSans rounded-0 mx-3 mx-md-8 py-4 px-6 border border-2 mb-4 mb-md-11 bg-transparent" placeholder="輸入Email" type="email">
                   <button class="btn btn-primary fw-bold fs-6 fs-md-7 py-4 py-md-2" type="submit">
                     確認訂閱 &raquo;
                   </button>
@@ -359,13 +422,22 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
+        centeredSlides: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
       });
     </script>
-    <script>const swiper = new Swiper(".mySwiper", {
+    <script>const swiper2 = new Swiper(".mySwiper2", {
         //避免使用者移動到
         allowTouchMove: false,
 
