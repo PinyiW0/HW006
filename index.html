@@ -80,6 +80,14 @@
 <div class="container-fliud">
     <div class="border border-2 border-md-3 mt-0 mb-8"></div>
 </div>    <div class="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
       <div class="card text-white border-0 mb-8 mb-md-10">
         <img src="/HW006/assets/13-069ddf3b.jpg" class="card-img banner" alt="隔牆有耳-沒有草東的派對活動照片">
         <div class="card-img-overlay d-flex flex-column justify-content-between">
@@ -402,6 +410,14 @@
 
     <hr class="border border-3">
 <p class="font-f-notoSans text-center fs-9 fs-md-6 py-5">© 7TAO七逃. All Rights Reserved</p>    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <script>const swiper = new Swiper(".mySwiper", {
         //避免使用者移動到
         allowTouchMove: false,
