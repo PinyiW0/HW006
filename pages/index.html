@@ -11,6 +11,14 @@
   <body>
     <%- include('./layout/header'); -%>
     <div class="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
       <div class="card text-white border-0 mb-8 mb-md-10">
         <img src="../assets/images/event/13.jpg" class="card-img banner" alt="隔牆有耳-沒有草東的派對活動照片">
         <div class="card-img-overlay d-flex flex-column justify-content-between">
@@ -333,6 +341,14 @@
 
     <%- include('./layout/footer'); -%>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <script>const swiper = new Swiper(".mySwiper", {
         //避免使用者移動到
         allowTouchMove: false,
