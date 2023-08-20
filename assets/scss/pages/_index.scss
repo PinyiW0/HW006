@@ -2,8 +2,19 @@
   color: #fff;
   opacity: 0.5;
 }
+.index__addtitle{
+  font-family: Yeseva One;
+}
 .index__btn-bg{
   background-color:rgba(0,0,0,0)
+}
+.index__btnAdd{
+   background-color: $primary;
+   color: #fff;
+   &:hover{
+    color: $warning;
+   }
+    
 }
 .index-title {
   font-size: 100px;
