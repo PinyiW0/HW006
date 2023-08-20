@@ -5,10 +5,11 @@
 .adj__icon{ //下在ａ上面
     content: "";
     margin: -5px;
+    display: block;
     transform: scale(1, 1);
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
      &:hover {
-        transform: scale(3, 3);
+        transform: scale(1.5, 1.5);
      }
 }
 // 助教建議的寫法範例，但我輸入了spacing語法都沒有作用
