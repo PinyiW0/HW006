@@ -43,3 +43,11 @@
       left: -9px;
     }
 }
+.position-absolute{
+  position: absolute;
+  z-index: 20;
+  background: inherit;
+}
+.header-bg{
+  background: inherit;
+}

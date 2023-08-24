@@ -20,9 +20,11 @@
   font-size: 100px;
 }
 .banner{
-  max-height: 518px;
-  min-height: 350px;
+  height: 350px;
   object-fit: cover;
+  @include pc{
+    height: 518px;
+  }
 }
 .cate{
   width: 40px;
