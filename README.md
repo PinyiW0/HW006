@@ -1,4 +1,6 @@
-# 網頁切版直播班 Vite 範例 - Bootstrap 版本
+# 網頁切版直播班 第六周作業 - 早期練習專案
+DEMO: https://pinyiw0.github.io/HW006/
+
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
